@@ -1,0 +1,93 @@
+The Decision Filter Manual
+Implementation Guide
+How to classify decision noise, install boundaries, and reduce escalation load.
+
+Document Type: Implementation Guide
+Title: The Decision Filter Manual
+Author: AI Virtual Agency
+Contact: biztechwellnessai@gmail.com
+Website: www.aivirtualagency.com
+
+Purpose
+The Decision Filter is a repeatable workflow that turns messy inbound “decision noise” (Slack, email threads, meeting notes, approvals) into:
+- A Green / Yellow / Red decision routing list
+- A short list of installable boundary rules
+- A conservative time-reclaim estimate tied to the decisions removed from escalation
+
+Who uses it
+- Founders
+- Executive/Admin assistants
+- Ops managers
+- Team leads
+
+What it solves
+- Repeated approvals
+- “Quick questions” that interrupt flow
+- Unclear thresholds that force escalation
+- Decision fatigue and context switching
+
+Inputs the Decision Filter accepts
+Paste any of the following:
+- Slack thread(s) or “Can I…?” messages
+- Email chain(s)
+- Meeting notes
+- Approval lists (“approved this / reviewed that / signed off”)
+- Task lists with questions embedded
+
+Minimum requirement
+At least 20 lines of real messages/notes, or 10 decisions.
+
+Output schema (must be consistent)
+Decision Routing Table
+Each item outputs:
+- Decision summary (plain language)
+- Category: Green / Yellow / Red
+- Reason (why it belongs there)
+- Suggested boundary rule (if Green or Yellow)
+- Escalation rule (if Red)
+- Estimated time saved per week (conservative)
+
+Boundary Rule Drafts
+Provide 3–7 rules in this format:
+- Rule name
+- What is allowed
+- Threshold
+- Owner
+- What to do when unclear
+- Escalation condition
+
+How classification works
+Green (Move without asking)
+Decisions that should be handled by the team under a clear rule.
+Examples: Spend approvals under a threshold, Scheduling within defined constraints, Standard client requests already in scope.
+
+Yellow (Move and notify)
+The team acts, but the decision-maker gets a notification summary.
+Examples: Minor client changes that impact timeline but not scope, Vendor adjustments under a limit, Exceptions that occur occasionally.
+
+Red (Escalate)
+True risk, true leverage, or irreversible decisions.
+Examples: Legal exposure, Reputation risk, Contract scope change above threshold, Price changes outside approved bands.
+
+The installation steps (the “manual”)
+Step 1: Collect Decision Noise (10 minutes)
+Step 2: Run the Decision Filter (5 minutes)
+Step 3: Choose 1 Boundary to Install Today (10 minutes)
+Step 4: Install the Boundary (15 minutes)
+Step 5: Enforce for 7 days
+
+Time reclaim estimate model (simple + believable)
+Weekly time reclaimed = prevented_escalations * minutes_per_escalation
+Recommended default: 5 minutes per prevented escalation.
+
+What “good” looks like in week 1
+By day 7 you should have: 1–3 boundaries installed, Fewer interruptions, A clearer escalation standard, A record of prevented escalations.
+
+Common failure modes (and fixes)
+Failure: Rule is vague. Fix: add thresholds and examples.
+Failure: Team still escalates. Fix: make the boundary visible + redirect questions back to the rule.
+Failure: Founder overrides. Fix: change language from blame to structure.
+
+Quick templates
+Boundary Rule Template: Rule Name, Scope, Threshold(s), Owner, Allowed Actions, Notify, Escalate When, Examples.
+Escalation Rule Template: Escalate if, Who decides, Required context, Decision timeframe.

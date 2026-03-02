@@ -1,0 +1,44 @@
+Agent Installation SOP
+Technical Manual
+How to deploy the Decision Filter Agent so it produces consistent, structured output.
+
+Document Type: Technical Manual
+Title: Agent Installation SOP
+Author: AI Virtual Agency
+Contact: biztechwellnessai@gmail.com
+Website: www.aivirtualagency.com
+
+Section 1 — What this SOP installs
+The “agent” is not a chatbot personality. It is a repeatable workflow that always returns:
+- Routing table (Green/Yellow/Red)
+- Boundary rule drafts
+- Escalation conditions
+- Time reclaim estimate
+- Summary the admin can forward
+
+Section 2 — Required guardrails
+- No shaming language
+- Blame structure, not people
+- Conservative estimates only
+- Always provide a boundary rule when possible
+- Always provide escalation criteria for Reds
+
+Section 3 — Agent prompt structure (the operating spec)
+Inputs required: Team size, Industry, Primary workflow type, Pasted “decision noise”.
+Outputs required: Executive Summary, Routing Table, Boundary Rules, Reds Only escalation criteria, Time reclaim estimate, “Forward to boss” version.
+
+Section 4 — Installation steps (how to deploy)
+Step 1: Choose delivery method (Web tool, Private agent link, Embedded chat widget).
+Step 2: Lock formatting (Deterministic structure).
+Step 3: Test with 5 datasets (Slack, Email, Meeting notes, Approval list, Mixed).
+Step 4: Add the “intentional incompleteness” for free users.
+
+Section 5 — Admin Assistant workflow
+The admin’s use case: Paste inbound chaos, Get a routing table, Send the “Reds Only” list to the decision-maker, Install Green boundaries as internal rules, Reduce follow-up chasing.
+
+Section 6 — QA checklist (every update)
+- Output order correct
+- No blame language
+- Always includes at least 1 boundary
+- Always includes time estimate
+- Free preview remains incomplete
